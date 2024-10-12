@@ -1,0 +1,46 @@
+.carousel-indcators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .carousel-indcators button {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  /*介绍*/
+  .text-moral {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .txt-cn {
+    margin: auto;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #000000;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .content-txt {
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+  }
+  
+  /*
+  传销视频
+  */
+  .moralVideo {
+    width: 800px;
+    height: 450px;
+  }
+  

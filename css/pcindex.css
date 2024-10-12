@@ -1,0 +1,137 @@
+/* body {
+    background-image: url(img/Moral-background.jpg);
+} */
+body {
+  height: 250vh;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  z-index: -10;
+  zoom: 1;
+  background-color: #fff;
+  background-image: url(../img/Moral-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+
+.Moral {
+  background-color: rgba(40, 40, 40, 0.6);
+}
+
+.Moral p {
+  text-align: center;
+  font-size: 50px;
+}
+
+.Moral p {
+  margin-top: 0;
+  color: #ffff;
+}
+
+.severp {
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  size: 12px;
+}
+
+/* 内容展示 */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.feature {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  margin-bottom: 25px;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+
+/* 图片展示 */
+.carousel {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  width: 400%;
+  position: relative;
+  transition: left 0.5s ease;
+  left: 0;
+}
+
+.carousel-inner img {
+  width: 25%;
+}
+
+/* .prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+
+}
+ */
+
+/* 页脚 */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  z-index: 1000;
+}
