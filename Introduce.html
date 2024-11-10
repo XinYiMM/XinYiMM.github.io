@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/Moral.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/Introduce.css">
+    <script src="js/index.js" defer="defer" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Moral墨柔云</title>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo"><a href="/"><img src="img/logo.png" height="38px"></a></div>
+        <ul class="links">
+            <li><div class="Jfeature"><a href="index.html">首页</div></a></li>
+            <li><div class="Jfeature"><a href="Introduce.html">介绍</div></a></li>
+            <li><div class="Jfeature"><a href="About.html">关于</div></a></li>
+        </ul>
+        <a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i> 
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="Introduce.html">介绍</a></li>
+        <li><a href="About.html">关于</a></li>
+        <li><a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a></li>
+    </div>
+</header>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ?'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+    }
+</script>
+
+<section class="features container">
+    <div class="feature">
+      <h3>离线游玩</h3>
+      <p>不论是官方正版账号，还是PCL/HMCL离线账号,都能畅玩Moral服务器。</p>
+    </div>
+    <div class="feature">
+      <h3>稳定连接</h3>
+      <p>国际服务器，中国境内都可以快速稳定的连接，彻底告别卡顿</p>
+    </div>
+    <div class="feature">
+      <h3>公平环境</h3>
+      <p>拥有先进的外挂检测配置，准确、快速的找到并处理外挂行为。</p>
+    </div>
+    <div class="feature">
+      <h3>丰富玩法</h3>
+      <p>拥有超多玩法，包括原版生存，更多附魔，更多钓鱼以及CS:GO小游戏等。</p>
+    </div>
+    <div class="feature">
+      <h3>个性游戏</h3>
+      <p>可自定义地图画（需付费），也可以自由建筑你喜欢的建筑或者其他装饰。</p>
+    </div>
+    <div class="feature">
+      <h3>地标建筑</h3>
+      <p>你可以建造优质大规模的建筑，申请一个地标展示你的作品，让全服玩家欣赏。</p>
+    </div>
+  </section>
+
+</body>
+</html>

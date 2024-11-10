@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/Moral.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/TextUP.css">
+    <script src="js/index.js" defer="defer" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Moral墨柔云</title>
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo"><a href="#"><img src="img/logo.png" height="38px"></a></div>
+        <ul class="links">
+            <li><div class="Jfeature"><a href="index.html">首页</div></a></li>
+            <li><div class="Jfeature"><a href="Introduce.html">介绍</div></a></li>
+            <li><div class="Jfeature"><a href="About.html">关于</div></a></li>
+        </ul>
+        <a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i> 
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="Introduce.html">介绍</a></li>
+        <li><a href="About.html">关于</a></li>
+        <li><a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a></li>
+    </div>
+</header>
+
+<script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function(){
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ?'fa-solid fa-xmark'
+        :'fa-solid fa-bars'
+    }
+</script>
+    <!-- <nav class="upMenu">
+        <label class="logo">Moral墨柔云</label>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i> 
+        </div>
+        <ul class="upJMenu">
+            <li><div class="feature"><a href="index.html">首页</div></a></li>
+            <li><div class="feature"><a href="Introduce.html">介绍</div></a></li>
+            <li><div class="feature"><a href="About.html">关于</div></a></li>
+        </ul>
+    </nav> -->
+
+    <div>
+        <div class="TextUP">
+        <h1>欢迎来到 Moral墨柔云 我的世界JAVA服务器！</h1>
+        <h2>本服务器由XBY运营</h2>
+        <a href="https://play.mcmod.cn/sv20184821.html" class="TpMoral">点击了解</a>
+        <div >
+            <img class="PtUp" src="img/Photo/PT/screenshot1.png">
+        </div>
+        </div>
+        
+    </div>
+    <div class="TextTbackground">
+        <div class="TextT">
+            <h1>赶快加入我们吧！</h1>
+            <h2>我们在Moral等候你的到来！</h2>
+            <h3>加入群聊，加入服务器，开始冒险吧！</h3>
+            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=muNAhJBdBTUBuyYdnvz-rNUo1WJpn5HQ&authKey=R9cSzYZmmwYn8KI3c%2B1OrM4bSE20GHikKAj9Bjd9zI%2BzFzetFqktK1%2BBL23sjcq3&noverify=0&group_code=855807170" class="ADDqq">加入群聊</a>
+        </div>
+        
+    </div>
+</body>
+</html>

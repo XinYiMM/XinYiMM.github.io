@@ -1,0 +1,58 @@
+.h1{
+    font-size: 35px;
+    font-family: Arial, sans-serif; 
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+header #branding h1 {
+    margin: 0 0 0 10px;
+}
+header #branding img {
+    height: 50px;
+    width: auto;
+}
+.main-col {
+    display: flex;
+    position: relative;
+    background:rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 15px;
+}
+.main-col h1 {
+    display: flex;
+    position: relative;
+    font-size: 24px;
+}
+.main-col p {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+.sidebar {
+    display: flex;
+    position: relative;
+    background: rgba(255, 255, 255, 0.4);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+}

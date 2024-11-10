@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/Moral.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/About.css">
+    <script src="js/index.js" defer="defer" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Moral墨柔云</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#"><img src="img/logo.png" height="38px"></a></div>
+            <ul class="links">
+                <li><div class="Jfeature"><a href="index.html">首页</div></a></li>
+                <li><div class="Jfeature"><a href="Introduce.html">介绍</div></a></li>
+                <li><div class="Jfeature"><a href="About.html">关于</div></a></li>
+            </ul>
+            <a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i> 
+            </div>
+        </div>
+    
+        <div class="dropdown_menu">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="Introduce.html">介绍</a></li>
+            <li><a href="About.html">关于</a></li>
+            <li><a href="#" class="copyIP" onclick="copyToClip('mcmoral.vip')">复制地址</a></li>
+        </div>
+    </header>
+    
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+    
+        toggleBtn.onclick = function(){
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+    
+            toggleBtnIcon.classList = isOpen
+            ?'fa-solid fa-xmark'
+            :'fa-solid fa-bars'
+        }
+    </script>
+
+<section class="banner">
+    <div class="container">
+        <h1>你喜欢的生存服务器</h1>
+        <p class="site">欢迎来到Moral墨柔云服务器，一个充满乐趣和挑战的商业Minecraft服务器！我们运行的是最新的1.20.4版本，提供最前沿的游戏体验。要加入我们，请记住我们的服务器地址：<b>mcmoral.vip</b>。<br><br>
+            在这里，你将体验到独特的游戏环境和丰富的社区活动。为了确保游戏的流畅和公平，我们要求每位玩家在进入服务器前更改自己的游戏ID。这不仅是为了维护秩序，也是为了确保每位玩家都能获得最佳的游戏体验。<br><br>
+            你可以选择下载Moral官方客户端来享受更便捷的游戏体验，或者直接通过IP地址连接。无论是新手还是老玩家，Moral服务器都期待你的加入，一起探索、创造、冒险！<br><br>
+            <b>加入Moral，让我们一起在方块世界中留下我们的足迹！</b></p>
+    </div>
+</section>
+
+<section class="container">
+    <article class="main-col">
+        <div class="content">
+            <h1>关于我们的服务器</h1>
+            <p>我们的游戏服务器采用最新的硬件技术，确保您的游戏体验流畅无阻。我们提供多种配置选项，满足不同玩家的需求。</p>
+            <p>服务器配置包括：</p>
+            <ul>
+                <li>7900X独立机</li>
+                <li>CPU-AMD 7900X 12核24线程 睿频5.6GHz主板-X670-E</li>
+                <li>内存-三星DDR5 5600MHz 64G (32Gx2)</li>
+                <li>散热-海盗船360一体式水冷+五个万转风扇</li>
+            </ul>
+        </div>
+    </article>
+
+    <aside class="sidebar">
+        <div class="content">
+            <h3>为何选择我们？</h3>
+            <p>我们提供：</p>
+            <ul>
+                <li>管理员在线答疑解惑</li>
+                <li>全天运行，可夜间挂机刷资源</li>
+                <li>人数众多，游玩体验上等</li>
+                <li>安全，平等的游戏环境</li>
+            </ul>
+        </div>
+    </aside>
+</section>
+
+</body>
+</html>

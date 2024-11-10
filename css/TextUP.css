@@ -1,0 +1,48 @@
+.TextUP{
+    margin: auto;
+    width: 80%;
+    border: 1px solid #0082e6;
+    padding: 10px;
+    text-align: center;
+}
+
+.TpMoral{
+    background-color: #0082e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.PtUp{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.TextT{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.ADDqq{
+    background-color: #0082e6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.TextTbackground{
+    margin-top: 10px;
+    background-color:rgba(255 ,255 ,255 , 0.5);
+}
